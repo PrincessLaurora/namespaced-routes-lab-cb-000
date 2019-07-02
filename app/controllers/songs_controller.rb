@@ -31,7 +31,7 @@ class SongsController < ApplicationController
       @song = Song.new
     else
       redirect_to songs_path
-    end      
+    end
   end
 
   def create
