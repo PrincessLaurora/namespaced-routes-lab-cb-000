@@ -1,5 +1,7 @@
 class ArtistsController < ApplicationController
   def index
+    
+    
     @artists = Artist.all
   end
 
@@ -8,7 +10,7 @@ class ArtistsController < ApplicationController
   end
 
   def new
-    @preference = Preference.new
+    @preference = Preference.first
     if @preference.allow_create_artists?
       @artist = Artist.new
     else
