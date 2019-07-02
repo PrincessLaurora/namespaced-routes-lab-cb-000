@@ -17,3 +17,5 @@ class Admin::PreferencesController < ApplicationController
   end
 
 end
+
+#the rspec and the instructions on the README don't match. 
