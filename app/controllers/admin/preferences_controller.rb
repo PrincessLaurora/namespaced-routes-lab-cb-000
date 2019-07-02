@@ -18,4 +18,5 @@ class Admin::PreferencesController < ApplicationController
 
 end
 
-#the rspec and the instructions on the README don't match. This entire Rails unit is a joke.
+#the rspec and the instructions on the README don't match. I have to check the solution as the lab passed so easily.
+#This entire Rails unit is a joke.
